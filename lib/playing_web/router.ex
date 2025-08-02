@@ -18,6 +18,7 @@ defmodule PlayingWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/qwerty", PageController, :qwerty
   end
 
   # Other scopes may use custom stacks.

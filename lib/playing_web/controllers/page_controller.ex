@@ -6,4 +6,8 @@ defmodule PlayingWeb.PageController do
     # so skip the default app layout.
     render(conn, :home, layout: false)
   end
+
+  def qwerty(conn, _params) do
+    render(conn, :home, layout: false)
+  end
 end
